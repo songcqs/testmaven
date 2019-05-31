@@ -108,19 +108,18 @@
 				
 				<!-- 有疑问 ，加上这段代码就没有多余的report文件了-->
                 <!-- 添加插件,添加ReportNg的监听器，生成TestNg的报告 -->
-<!--
-  这里要将defaultListener设置为false，下面配置了两个listener，一个是HTMLReport，用来生成HTML格式的Report，
- 另一个是JUnitXMLReporter，这个是用来生成xml格式的report，用于jekins服务器;practice11.xml即为即将运行的TestNG xml。
-然后运行maven test，生成的报告会在target/目录下。
-有了报告以后，我们会想，能不能在case执行的过程中将一些重要的log信息也输出到report中呢?
-testNG中有这样一个类：Reporter，就是专门做这个工作的。
-@Test
-    public void test1(){
-        Reporter.log("This is test1");
-    }
-这样生成的报告就既美观又实用了。
-除了ReportNG外，我们还可以使用testNG-xslt
- -->
+	<!--
+	  这里要将defaultListener设置为false，下面配置了两个listener，一个是HTMLReport，用来生成HTML格式的Report，
+	 另一个是JUnitXMLReporter，这个是用来生成xml格式的report，用于jekins服务器;practice11.xml即为即将运行的TestNG xml。
+	然后运行maven test，生成的报告会在target/目录下。
+	有了报告以后，我们会想，能不能在case执行的过程中将一些重要的log信息也输出到report中呢?
+	testNG中有这样一个类：Reporter，就是专门做这个工作的。
+	@Test
+	    public void test1(){
+	        Reporter.log("This is test1");
+	    }
+	这样生成的报告就既美观又实用了。除了ReportNG外，我们还可以使用testNG-xslt
+	 -->
                         <property>
                             <name>usedefaultlisteners</name>
                             <value>false</value>
