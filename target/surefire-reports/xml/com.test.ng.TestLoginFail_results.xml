@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="1"
+           tests="3"
            failures="0"
            errors="0"
-           skipped="0"
-           time="16.060">
+           skipped="2"
+           time="29.018">
   <properties />
   
+            <testcase name="testLoginfail" time="0.0" classname="com.test.ng.TestLoginFail">
+          <skipped />
+    </testcase>
+            <testcase name="testLoginfail" time="0.0" classname="com.test.ng.TestLoginFail">
+          <skipped />
+    </testcase>
   
-            <testcase name="testLoginfail" time="16.060" classname="com.test.ng.TestLoginFail" />
+            <testcase name="testLoginfail" time="25.542" classname="com.test.ng.TestLoginFail" />
       
 </testsuite>

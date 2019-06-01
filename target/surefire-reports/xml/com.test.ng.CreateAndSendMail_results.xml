@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="16.097">
+           time="37.189">
   <properties />
   
   
-            <testcase name="createMail" time="16.097" classname="com.test.ng.CreateAndSendMail" />
+            <testcase name="createMail" time="37.189" classname="com.test.ng.CreateAndSendMail" />
       
 </testsuite>
