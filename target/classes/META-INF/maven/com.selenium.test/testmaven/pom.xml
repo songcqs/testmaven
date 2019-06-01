@@ -65,6 +65,7 @@
 			</exclusions>
 		</dependency>
 
+		<!-- 导入本地jar包文件 -->
 		<!-- <dependency>
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
