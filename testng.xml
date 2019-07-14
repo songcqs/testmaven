@@ -11,12 +11,12 @@
 			<package name="com.test.ng"></package>
 		</packages> -->
     <classes>
-     <!--  <class name="com.test.ng.DeleteMail"/> -->
-    <!--   <class name="com.test.ng.TestLoginFail"/>
-      <class name="com.selenium.test.AppTest"/> -->
       <class name="com.test.ng.LoginTestNG"/>
-     <!--  <class name="com.test.ng.CreateAndSendMail"/>
-      <class name="com.test.ng.DownloadTest"/> -->
+      <class name="com.test.ng.CreateAndSendMail"/>
+      <class name="com.test.ng.TestLoginFail"/>
+      <class name="com.test.ng.DeleteMail"/>
+      <class name="com.test.ng.DownloadTest"/>
+      <class name="com.selenium.test.AppTest"/>
     </classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
