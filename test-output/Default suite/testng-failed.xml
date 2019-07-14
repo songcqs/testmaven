@@ -10,20 +10,6 @@
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.test.ng.LoginTestNG -->
-      <class name="com.test.ng.DeleteMail">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="deleteMail"/>
-        </methods>
-      </class> <!-- com.test.ng.DeleteMail -->
-      <class name="com.test.ng.CreateAndSendMail">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="createMail"/>
-        </methods>
-      </class> <!-- com.test.ng.CreateAndSendMail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,7 +11,6 @@ import org.testng.annotations.ITestAnnotation;
  * 描述：实现IAnnotationTransformer接口，设置监听
  */
 public class RetryListener implements IAnnotationTransformer {
-	@Override
 	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
 		IRetryAnalyzer retry = annotation.getRetryAnalyzer();
 		if (retry == null) {

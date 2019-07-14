@@ -22,6 +22,8 @@ public class TestngListenerScreenShot extends TestListenerAdapter {
 	@Override
 	public void onTestSuccess(ITestResult tr) {
 		super.onTestSuccess(tr);
+
+//		takeScreenShot(tr);
 	}
 
 	@Override

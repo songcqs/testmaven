@@ -36,7 +36,7 @@ public class LoginTestNG {
 		Thread.sleep(1000);
 		// 判断页面是否跳转
 		WebElement element = this.driver.findElement(By.xpath("//span[text()='红旗邮件']"));
-		assertTrue(element.getText().contains("红旗邮件"));
+		assertTrue(element.getText().contains("红旗邮件2"));
 		System.out.println(element.getText());
 
 		// 退出

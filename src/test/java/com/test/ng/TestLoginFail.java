@@ -58,7 +58,6 @@ public class TestLoginFail {
 
 			WebDriverWait wait = new WebDriverWait(driver, 30);
 			WebElement wl = wait.until(new ExpectedCondition<WebElement>() {
-				@Override
 				public WebElement apply(WebDriver d) {
 					return d.findElement(By.xpath("//div[@id='nerror']/div[2]"));
 				}

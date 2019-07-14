@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.test.lib.RetryListener"/>
+    <listener class-name="com.test.lib.TestngListenerScreenShot"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.ng.CreateAndSendMail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="createMail"/>
+        </methods>
+      </class> <!-- com.test.ng.CreateAndSendMail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

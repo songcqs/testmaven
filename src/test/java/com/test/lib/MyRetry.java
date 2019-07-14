@@ -22,7 +22,7 @@ public class MyRetry implements IRetryAnalyzer {
 	private static int maxRetryCount = 3;// 最大重新执行场景的次数
 	private int retryCount = 1;
 
-	@Override
+
 	/*
 	 * ITestResult是TestNG提供的一个接口 结合@AfterMethod使用类似监听器 可以监听@Test方法的执行状态等信息。(non-Javadoc)
 	 * @see org.testng.IRetryAnalyzer#retry(org.testng.ITestResult)
